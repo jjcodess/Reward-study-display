@@ -3,15 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cute Rewards</title>
+  <title>Cute Rewards Tracker</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Kitchen Rewards!</h1>
-    <p id="reward-display">Click the button to see your reward!</p>
-    <button id="reward-btn">Get Reward</button>
+    <h1>My Cute Rewards</h1>
+    
+    <div class="input-section">
+      <input type="text" id="new-reward" placeholder="Write a new reward...">
+      <button id="add-btn">Add Reward</button>
+    </div>
+
+    <ul id="reward-list"></ul>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
